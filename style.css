@@ -121,7 +121,7 @@ h2 {
 .offer{
   margin-top: 6rem;
   display: grid;
-  grid-template-columns:  repeat(auto-fit,minmax(400px,auto));
+  grid-template-columns:  repeat(auto-fit,minmax(200px,auto));
   gap: 10px;
   overflow: hidden;
 }
@@ -297,6 +297,7 @@ footer{
 
 
 }
+
 
 
 
