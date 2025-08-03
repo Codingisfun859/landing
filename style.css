@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.875rem 10%;
+  padding: 0.75rem 10%;
   width: 100%;
   z-index: 1000;
   background-color: transparent;
@@ -90,7 +90,7 @@ header.sticky {
     top: 0;
     left: 0;
     background:linear-gradient(40deg,#00A8E8,#0077B6);
-    padding: 1.575rem 10%;
+    padding: 0.75rem 10%;
     box-shadow: rgba(33,35,38,0.1) 0px 10px 10px -10px;
     z-index: 1000;
 }
@@ -297,6 +297,7 @@ footer{
 
 
 }
+
 
 
 
