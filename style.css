@@ -186,6 +186,7 @@ h2 {
 
 footer{
   padding: 2rem 10%;
+  background:linear-gradient(40deg,#00A8E8,#0077B6)
 }
 .connect{
   display: grid;
@@ -194,18 +195,15 @@ footer{
 }
 .connect-cards {
   text-align: center;
-  margin-bottom: 3rem;
   padding: 1rem;
-  max-width: 350px;
   color: #eee; 
 }
 
 .connect-cards h4{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 1rem 0 1rem;
 }
 .connect-cards h6{
-  margin-bottom: 0.5rem;
+  padding-bottom: 0.6rem;
 }
 .connect-cards p{
   cursor: pointer;
@@ -221,9 +219,7 @@ footer{
 .connect-cards p:hover{
   text-decoration: underline; 
 }
-.banner{
-  background:linear-gradient(40deg,#00A8E8,#0077B6)
-}
+
 .connect-cards a{
   color:#fff;
 }
@@ -233,9 +229,8 @@ footer{
   transition: 0.3s ease;
 }
 .connect-cards a i:hover{
-  transform: scale(2);
+  transform: scale(1.2);
 }
-
 
 
 
@@ -297,6 +292,7 @@ footer{
 
 
 }
+
 
 
 
