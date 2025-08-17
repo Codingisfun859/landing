@@ -248,6 +248,7 @@ footer{
     right: -100%;
     width: 100%;
     height: auto;
+    padding-bottom: 1rem;
     background:linear-gradient(40deg,#00A8E8,#0077B6);
     transition: top 0.4s ease-in-out;
     z-index: 999;
@@ -315,6 +316,7 @@ footer{
   }
 
 }
+
 
 
 
