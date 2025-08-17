@@ -50,7 +50,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 14px;
   list-style: none;
 }
 
@@ -244,11 +244,11 @@ footer{
     align-items: center;
     position: fixed;
     top: 0;
+    padding-top: 2rem;
     right: -100%;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     background:linear-gradient(40deg,#00A8E8,#0077B6);
-    padding: 2rem 1rem;
     transition: top 0.4s ease-in-out;
     z-index: 999;
   }
@@ -262,12 +262,36 @@ footer{
   .tour-info img {
     height: 250px;
   }
+  .tour-info-img{
+    order: 1;
+  }
+  .tour-text{
+    order: 2;
+  }
   .nav-links.active {
     right: 0;
   }
 
   .nav-links li {
-    margin: 1rem 0;
+    padding-top: 1rem;
+  }
+  .nav-links li a {
+  text-decoration: none;
+  color: var(--p-color);
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: 0.4s;
+  }
+  .nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  }
+
+  .nav-links li a:hover {
+    color: var(--primary);
+    background-color: var(--p-color);
   }
   .info h1{
     font-size: clamp(1.8rem,calc(4.4vw + 1rem),4rem);
@@ -290,8 +314,10 @@ footer{
     font-size: 1.2rem;
   }
 
-
 }
+
+
+
 
 
 
